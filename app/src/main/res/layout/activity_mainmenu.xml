@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradientbg"
+    android:layout_height="match_parent"
+    tools:context=".mainmenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/btnaddlocation"
+            android:text="Add Work"
+            android:onClick="addwork"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/btnview"
+            android:text="View"
+            android:onClick="showdata"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"></Button>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
